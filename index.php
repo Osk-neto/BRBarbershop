@@ -44,12 +44,11 @@ require "header.php";
     <div class="row align-items-center">
         <div class="col-md-6 text-center">
             <div>
-
-                <h4>Adieus except say barton put feebly favour him. Entreaties unpleasant sufficient few pianoforte
-                    discovered uncommonly ask. Morning cousins amongst in mr weather do neither. Warmth object
-                    matter course active law spring six. Pursuit showing tedious unknown winding see had man add.
-                    And park eyes too more him. Simple excuse active had son wholly coming number add. Though all
-                    excuse ladies rather regard assure yet. If feelings so prospect no as raptures quitting.
+                <h2>Contact us</h2>
+                <h4>
+                Rua antonio Barreto,Belem, Brazil,66060-020<br>
+                Phone +55(91)98082-1227<br>
+                BrBarbershop@outlool.com.br
                 </h4>
             </div>
 
