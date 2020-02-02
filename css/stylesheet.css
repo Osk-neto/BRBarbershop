@@ -1,0 +1,443 @@
+* {
+    box-sizing: border-box;
+    font-family: Raleway;
+    color: #777;
+}
+
+
+
+/* ----------------NAVIBAR---------------- */
+#mainNavbar{
+    background-color: black;
+}
+#mainNavbar .navbar-brand{
+    color: rgb(166, 231, 14);
+     
+    letter-spacing: 3px;
+    font-size: 2rem;
+    margin-left: 40px;
+
+}
+
+#links .nav-link{
+    color: white;
+}
+#links{
+    margin-right: 15px;
+}
+#links .nav-link:hover{
+    color:  rgb(166, 231, 14);
+}
+
+
+.fas.fa-shopping-cart{
+    color:white;
+    font-size: 30px;
+    width: 45px;
+    
+}
+.fas.fa-shopping-cart:hover{
+    color: rgb(166, 231, 14);
+}
+.cart-btn{
+    position: relative;
+    cursor: pointer;
+}
+.cart-items{
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background: white;
+    padding: 0 5px;
+    border-radius: 30%;
+    color: green;
+}
+/* ----------------END NAVIBAR---------------- */
+
+
+
+
+
+/* ----------------video modal---------------- */
+#myModal .modal-body{
+    padding: 0.5rem;
+    
+    
+}
+/* ----------------end video modal---------------- */
+
+/* ----------------registration---------------- */
+.container h1{
+    
+    color: white;
+}
+    
+
+
+
+.register{
+    background-color: black;
+    
+    padding-top: 50px;
+    
+    width: 500px;
+    margin: 0px 0px 0px 430px;
+    padding: 20px;
+    font-size: 18;
+    border-radius: 10px;
+    margin: 290px;
+    margin-top: 60px;
+}
+
+#register{
+    margin-left: 50px;
+}
+label{
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    font-style: italic;
+}
+#name{
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+
+#ph{
+    width: 65px;
+    padding: 7px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+
+}
+#lastName{
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#mobileNumber{
+    width: 230px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#address{
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#DOB{
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#email{
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+#password{
+    width: 300px;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    padding: 7px;
+}
+.submitbutton{
+    width: 200px;
+    padding: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    border: none;
+    border-radius: 3px;
+    outline: 0;
+    margin-top: 30px;
+    margin-left: 70px;
+
+}
+/* ----------------end registration---------------- */
+
+/* ----------------login---------------- */
+#loginEmail ,#loginPassword{
+    width: 90%;
+    padding: 12px 26px;
+    margin: 8px 26px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+#loginButton{
+    background-color: #4CAf50;
+    color: white;
+    padding: 14px 26px;
+    margin: 8px 26px;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    font-size: 20px;
+
+}
+
+#loginButton:hover{
+    opacity: 0.8;
+}
+
+.modal-header{
+    padding-left: 145px;
+    background-color: black;
+  
+
+}
+.modal-header .close {
+
+    padding-left: 150px;
+    
+}
+.logintext{
+    margin: auto;
+    color: white;
+
+    
+    
+}
+
+.avatar{
+    width: 200px;
+    height: 200px;
+    padding-left: 10px;
+}
+
+.error{
+    color: red;
+    padding-top: 20px;
+    
+}
+/* ----------------end login---------------- */
+
+/* ----------------booking---------------- */
+
+
+.bookingLegend{
+    color: white;
+}
+/* ----------------end booking---------------- */
+
+/* ----------------Staff---------------- */
+.img-fluid-barber{
+    width: 270px;
+    height: 350px;
+}
+/* ----------------end Staff---------------- */
+/* ----------------Home---------------- */
+.img-fluid-home{
+    width: 350px;
+    height: 350px;
+}
+/* ----------------end Home---------------- */
+
+/* ----------------products---------------- */
+
+.img-fluid{
+    width: 250px;
+    height: 250px;
+}
+
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+    margin-top: 100px;
+}
+button{
+    background-color: black;
+    color:white;
+    border-radius: 8px;
+}
+button:hover{
+    color:  rgb(166, 231, 14);
+}
+h2{
+    margin-top:100px;
+    text-align: center;
+}
+
+/* ----------------end products---------------- */
+/* ----------------cart---------------- */
+
+
+/* test */
+.cart-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    
+    background: rgba(11, 170, 109, 0.5);
+    z-index: 2;
+    visibility: hidden;
+    
+  }
+
+  .cart {
+    position: fixed;
+    top: 0;
+    right: 430px;
+    width: 100%;
+    height: 100%;
+    overflow: scroll;
+    z-index: 3;
+    background: rgb(231, 226, 221);
+    padding: 1.5rem;
+    
+    transform: translateX(100%);
+  }
+  .showCart {
+    transform: translateX(0);
+  }
+  .transparentBcg {
+    visibility: visible;
+  }
+  @media screen and (min-width: 450px) {
+    .cart {
+      width: 30vw;
+      min-width: 450px;
+      margin-right: 75px;
+    }
+  }
+  
+  
+  .far.fa-window-close{
+    margin-top: 50px;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+/* end */
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #333;
+    text-align: center;
+    font-size: 2.5em;
+}
+.cart-row {
+    display: flex;
+}
+.cart-header {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: #333;
+}
+
+.cart-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 1.5em;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.cart-item{
+    width: 45%;
+}
+
+.cart-price {
+    width: 20%;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cart-quantity {
+    width: 35%;
+}
+
+.cart-item-title {
+    color: #333;
+    margin-left: .5em;
+    font-size: 1.2em;
+}
+
+.cart-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #CC4C4C;
+}
+
+.cart-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid #56CCF2;
+    background-color: #eee;
+    color: #333;
+    padding: 0;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 25px;
+}
+.cart-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+    border: none;
+}
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 1.75em;
+}
+/* ----------------end cart---------------- */
+
+
+
+
+
